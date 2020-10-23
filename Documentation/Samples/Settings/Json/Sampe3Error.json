@@ -1,0 +1,11 @@
+{
+  "Size": "0, 7",
+  "Exit": "-6, 6",
+  "Mines": [
+    "2, 2",
+    "333, 3",
+    "2, 2"
+  ],
+  "TurtlePosition": "0, 9",
+  "TurtleDirection": "N"
+}

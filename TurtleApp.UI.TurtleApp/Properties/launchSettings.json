@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TurtleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-s C:\\Users\\Apolos\\Documents\\Projects\\Github\\TurtleApp\\Documentation\\Samples\\Settings\\Json\\Sampe3Error.json -a C:\\Users\\Apolos\\Documents\\Projects\\Github\\TurtleApp\\Documentation\\Samples\\Actions\\Json\\Sample2.txt"
+    }
+  }
+}
