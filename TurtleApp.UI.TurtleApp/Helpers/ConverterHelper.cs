@@ -44,6 +44,10 @@ namespace TurtleApp.UI.TurtleApp.Helpers
                     msgErrors.Add("Something happen processing the parameters, please try again.");
                 }
             }
+            if(!options.HasPathActions)
+                msgErrors.Add($"You need to add {TurtleAppOptions.PATH_ACTIONS} with a path for the action file.");
+            if (!options.HasPathSetting)
+                msgErrors.Add($"You need to add {TurtleAppOptions.PATH_SETTING} with a path for the setting file.");
             if (msgErrors.Any())
                 throw new ListMessageException(msgErrors);
             return options;
